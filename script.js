@@ -33,5 +33,5 @@ else if (unidad == 3){
     document.write("D = " + distancia + "m");
 }
 else{
-
+    document.write("Actualice la página y escriba un valor entre 1 y 3")
 }
