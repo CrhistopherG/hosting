@@ -24,7 +24,7 @@ else if (unidad == 2){
 else if (unidad == 3){
     var trabajo = parseInt(prompt("Escriba la cantidad de trabajo"));
     var fuerza = parseInt(prompt("Escriba la cantidad de fuerza"));
-    var distancia = (trabajo / fuerza).toFixed(2);
+    var distancia = (trabajo / fuerza);
     document.write("Trabajo = " + trabajo + " J <br>");
     document.write("Fuerza = " + fuerza + " N <br>");
     document.write("La distancia es: " + distancia.toFixed(2) + "m <br>");
