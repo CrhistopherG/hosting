@@ -30,7 +30,7 @@ else if (unidad == 3){
     document.write("La distancia es: " + distancia.toFixed(2) + "m <br>");
     document.write("D = T/F <br>");
     document.write("D = " + fuerza + " N / " + trabajo + " J <br>");
-    document.write("D = " + distancia + "m");
+    document.write("D = " + distancia.toFixed(2) + "m");
 }
 else{
     alert("Actualice la página y escriba un valor válido")
