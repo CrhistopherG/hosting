@@ -1,23 +1,25 @@
 var temp = parseInt(prompt("Ingrese la temperatura a convertir \n1) Celsius \n2) Fahrenheit \n3) Kelvin"));
-var grados = parseInt(prompt("Ingrese los grados"));
 
 if (temp == 1) {
+    var grados = parseInt(prompt("Ingrese los grados"));
     parseFloat(kelvin = grados + 273.15);
-    parseFloat(fahrenheit = (9*grados)/5 + 32);
+    parseFloat(fahrenheit = ((grados*1.8)+32));
     document.write(grados + " ºC es igual a: <br>");
     document.write(kelvin + " ºK <br>");
     document.write(fahrenheit + " ºF <br>");
 }
-if (temp == 2) {
-    parseFloat(celsius = (5*(grados-32))/9);
-    parseFloat(kelvin = (((5*(grados-32)/9)+273.15)));
+else if (temp == 2) {
+    var grados = parseInt(prompt("Ingrese los grados"));
+    parseFloat(celsius = ((grados-32)/1.8));
+    parseFloat(kelvin = ((5/9(grados-32)))+32);
     document.write(grados + " ºF es igual a: <br>");
     document.write(celsius + " ºC <br>");
     document.write(kelvin + " ºK <br>");
 }
-if (temp == 3) {
+else if (temp == 3) {
+    var grados = parseInt(prompt("Ingrese los grados"));23
     parseFloat(celsius = grados-273.15);
-    parseFloat(fahrenheit = (9*(grados-273.15))/5 + 32);
+    parseFloat(fahrenheit = ((1.8(grados-273.15)+32)));
     document.write(grados + " ºK es igual a: <br>");
     document.write(celsius.toFixed(2) + " ºC <br>");
     document.write(fahrenheit.toFixed(2) + " ºF <br>");
