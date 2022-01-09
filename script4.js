@@ -11,7 +11,7 @@ if (temp == 1) {
 else if (temp == 2) {
     var grados = parseInt(prompt("Ingrese los grados"));
     parseFloat(celsius = ((grados-32)/1.8));
-    parseFloat(kelvin = ((grados-32)*(5/9)+273.15));
+    parseFloat(kelvin = (((grados-32)*5)/9)+273.15);
     document.write(grados + " ºF es igual a: <br>");
     document.write(celsius + " ºC <br>");
     document.write(kelvin + " ºK <br>");
